@@ -16,4 +16,10 @@
             echo"<p>Menampilkan form tambah Siswa</p>";
         }
 
+        public function show(string $id)
+        {
+            echo 'Detail Siswa';
+            echo "<p>Menampilkan detail siswa ID: {$id}</p>";
+        }
+
     }
