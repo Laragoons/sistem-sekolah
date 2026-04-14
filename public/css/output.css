@@ -13,7 +13,6 @@
     --color-blue-500: oklch(62.3% 0.214 259.815);
     --color-gray-100: oklch(96.7% 0.003 264.542);
     --color-gray-200: oklch(92.8% 0.006 264.531);
-    --color-gray-500: oklch(55.1% 0.027 264.364);
     --color-gray-800: oklch(27.8% 0.033 256.848);
     --color-white: #fff;
     --spacing: 0.25rem;
@@ -209,6 +208,9 @@
   }
   .grid {
     display: grid;
+  }
+  .table {
+    display: table;
   }
   .min-h-screen {
     min-height: 100vh;
