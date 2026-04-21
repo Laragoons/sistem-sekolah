@@ -11,5 +11,7 @@ $Router->add('GET', '/students/create', 'StudentController','create');
 $Router->add('GET', '/students/{id}', 'StudentController','show');
 $Router->add('GET', '/students/{id}/edit', 'StudentController','edit');
 
+$Router->add('POST', '/students', 'StudentController', 'store');
+
 $Router->run();
 ?>

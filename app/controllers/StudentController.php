@@ -40,4 +40,10 @@
             $this->view('students.edit');
         }
 
+        public function store()
+        {
+            $studentModel = new Student();
+            $studentModel->insert($_POST);
+        }
+
     }
